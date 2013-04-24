@@ -1,0 +1,17 @@
+This will just be used to keep track of what changes were made so we don't have to always rely on GitHub.
+
+If possible make it in this format.
+
+Date of Change ---Your Name---Your Email
+	>Name of file Changed
+		>Changes made
+
+
+Something alone those lines.
+
+2013/04/23 ---William Karavites--- wkaravites@gmail.com
+
+	This is the inital commit for the wrapper. Some things/aspects I KNOW that need to be started are:
+		Implementation of the facets
+		Getting the spatial information from an item.
+
