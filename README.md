@@ -36,7 +36,7 @@ You can execute a search with:
 If you only want one, then just pass null for the other.
 
 ### Execute a simple search query WITHOUT any SearchOptions.
-'''Java
+
     SearchQuery sq = new SearchQuery("pizza",null);
         
         sq.setAPIKEY("your api key goes here");
@@ -45,10 +45,10 @@ If you only want one, then just pass null for the other.
         for (DplaItem dp : result) {
             System.out.println(dp.getSourceResource().getTitle());
         }
-'''
+
 ### Execute a search query with some SearchOptions
 
-'''java
+
     
     SearchOptions so = new SearchOptions();
 
@@ -61,7 +61,7 @@ If you only want one, then just pass null for the other.
         for (DplaItem dp : result) {
             System.out.println(dp.getSourceResource().getTitle());
         }
-'''
+
 
 
 
